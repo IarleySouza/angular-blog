@@ -7,7 +7,7 @@ import { HomeComponent } from "./pages/home/home.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SmallCardComponent, BigCardComponent, MenuTitleComponent, HomeComponent],
+  imports: [RouterOutlet, HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
